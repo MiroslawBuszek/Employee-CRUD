@@ -86,7 +86,7 @@ db = []
 emp = {
     "name" : "John",
     "surname" : "Rambo",
-    "stanowisko" : "soldier",
+    "position" : "soldier",
     "salary": 5000
 }
 
@@ -94,14 +94,14 @@ createEmployee(db, emp)
 createEmployee(db, {
     "name" : "Mary",
     "surname" : "James",
-    "stanowisko" : "singer",
+    "position" : "singer",
     "salary": 7000
 })
 
 createEmployee(db, {
     "name" : "Ron",
     "surname" : "Tumor",
-    "stanowisko" : "doctor",
+    "position" : "doctor",
     "salary": 4000
 })
 
@@ -109,7 +109,7 @@ createEmployee(db, {
 removeEmployee(db, {
     "name" : "Ron",
     "surname" : "Tumor",
-    "stanowisko" : "doctor",
+    "position" : "doctor",
     "salary": 4000
 })
 
